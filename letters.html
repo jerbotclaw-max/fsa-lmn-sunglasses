@@ -56,6 +56,7 @@ table.rev td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
 <button onclick="show(8,this)">I · Corneal Transplant / Bleb</button>
 <button onclick="show(9,this)">J · Sjögren's / Severe Dry Eye</button>
 <button onclick="show(10,this)">K · Facial Palsy / Lagophthalmos</button>
+<button onclick="show(11,this)">L · Presbyopia + Senile Miosis (45+)</button>
 </div>
 <div id="letters"></div>
 
@@ -80,6 +81,8 @@ table.rev td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
 <li><b>Post-cataract UV</b>: American Academy of Ophthalmology patient guidance on sunglasses after cataract surgery. <a href="https://www.aao.org/eye-health/tips-prevention/sunglasses">aao.org</a></li>
 <li><b>Photophobia mechanisms</b>: Digre KB, Brennan KC, "Shedding light on photophobia," <i>J Neuroophthalmol</i> 2012;32(1):68-81.</li>
 <li><b>Ocular melanoma & UV/eye color</b>: Weis E et al., "The association between.host susceptibility factors and uveal melanoma," <i>Ophthalmology</i> 2006;113(11):2022-30.</li>
+<li><b>Senile miosis & glare aging</b>: Winn B et al. on age-pupil relation; Sloane ME, Owsley C, Alvarez SL, "Aging, senile miosis and spatial contrast sensitivity at low luminance," <i>Vision Res</i> 1988;28(11):1235-46; photostress recovery aging literature — <a href="https://pubmed.ncbi.nlm.nih.gov/3227093/">pubmed</a></li>
+<li><b>Presbyopia prevalence</b>: Fricke TR et al., "Prevalence of presbyopia in 2015 and projection to 2050," <i>Ophthalmology</i> 2018;125(10):1496-1504 (global prevalence ~1.8B; near-universal by age 50) — <a href="https://pubmed.ncbi.nlm.nih.gov/29959834/">pubmed</a></li>
 <li><b>AMD & high-energy visible light</b>: AREDS2-reported associations and review literature on blue-light attenuation for retinal disease patients (evidence strongest for symptomatic photophobia in retinal dystrophies). <a href="https://pubmed.ncbi.nlm.nih.gov/?term=photophobia+retinal+dystrophy">pubmed</a></li>
 </ul></div>
 
@@ -175,6 +178,16 @@ L.push(`<div class="letter"><h4>Letter of Medical Necessity — K · Facial Pals
 <p>Clinical rationale: Incomplete blink compromises the tear film and leaves the cornea exposed; environmental UV, wind, and glare compound epithelial injury risk. Moisture-chamber UV400 sunglasses are a first-line protective device in facial palsy management (AAO facial nerve palsy preferred-practice guidance; standard oculoplastic aftercare references).</p>
 <p>Prescribed device: <b>UV400 moisture-chamber wrap sunglasses</b> (side shields), tint per tolerance, prescription per attached Rx if applicable. Estimated cost: $<span class="blank"></span>.</p>
 <p>Duration: <b>duration of deficit; often permanent</b>. Medically necessary corneal protection; <b>not primarily for convenience or general use</b>.</p>
+<div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
+
+
+L.push(`<div class="letter"><h4>Letter of Medical Necessity — L · Presbyopia with Age-Related Pupillary Miosis and Delayed Glare Recovery (45+)</h4>
+<div class="lh"><span>Provider: <span class="blank"></span> NPI: <span class="blank"></span></span><span>Date: <span class="blank"></span></span></div>
+<p>To the Benefits Administrator:</p>
+<p>Patient <b><span class="blank"></span>, DOB <span class="blank"></span></b> (age <span class="blank"></span>) was examined on <span class="blank"></span> and found to have <b>presbyopia (ICD-10 H52.4)</b> with <b>age-related pupillary miosis and delayed photostress/glare recovery</b>, plus patient-reported disabling glare in bright conditions and prolonged glare recovery while night driving — findings consistent with documented age-related changes in pupillary dynamics and retinal adaptation (senile miosis; age-prolonged photostress recovery). Exam findings: pupil size in bright illumination <span class="blank"></span> mm; glare recovery time <span class="blank"></span> s (age-matched normative reference: <span class="blank"></span>).</p>
+<p>Clinical rationale: Aging pupils constrict progressively (roughly halving entry area from young adulthood to 60), and photostress/glare-recovery times lengthen measurably with age, producing disabling glare in bright and transitioning-light conditions. Moderate category tinted lenses with full UV400 attenuation are a recognized corrective measure for glare disability in this population when selected to preserve acuity (e.g., not for low-light driving). Because the same lens doubles as the patient's required near-vision correction, the tinted prescription pair treats the combined diagnosed functional impairment.</p>
+<p>Prescribed device: prescription tinted eyewear with <b>UV400 attenuation</b>, <b>category 2 tint</b> (acuity-preserving; patient counseled against category 3+ use while night driving), <b>near-vision prescription per attached Rx</b> (add power <span class="blank"></span>). Estimated cost: $<span class="blank"></span>.</p>
+<p>Duration: <b>12 months</b>. Medically necessary to correct diagnosed presbyopia together with documented age-related glare disability; <b>not primarily for convenience or general use</b>.</p>
 <div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
 
 let cur=-1;
