@@ -50,6 +50,12 @@ table.rev td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
 <button onclick="show(2,this)">C · Retinal Disease</button>
 <button onclick="show(3,this)">D · Ocular Surface Disease</button>
 <button onclick="show(4,this)">E · Age 40+ Lens Changes</button>
+<button onclick="show(5,this)">F · Post-Concussion/TBI</button>
+<button onclick="show(6,this)">G · Aniridia / Albinism</button>
+<button onclick="show(7,this)">H · Post-Refractive Surgery</button>
+<button onclick="show(8,this)">I · Corneal Transplant / Bleb</button>
+<button onclick="show(9,this)">J · Sjögren's / Severe Dry Eye</button>
+<button onclick="show(10,this)">K · Facial Palsy / Lagophthalmos</button>
 </div>
 <div id="letters"></div>
 
@@ -121,6 +127,56 @@ L.push(`<div class="letter"><h4>Letter of Medical Necessity — E · Age-Related
 <p>Prescribed device: sunglasses with <b>100% UVA/UVB attenuation (UV400)</b>, <b>category 2-3 tint, anti-reflective coating on the prescription pair</b>, prescription per attached Rx. Estimated cost: $<span class="blank"></span>.</p>
 <p>Duration: <b>12 months, re-evaluation scheduled</b>. Medically necessary for the symptomatic treatment of documented age-related lens changes; <b>not primarily for convenience or general use</b>.</p>
 <div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
+
+L.push(`<div class="letter"><h4>Letter of Medical Necessity — F · Post-Traumatic Brain Injury / Post-Concussion Photophobia</h4>
+<div class="lh"><span>Provider: <span class="blank"></span> NPI: <span class="blank"></span></span><span>Date: <span class="blank"></span></span></div>
+<p>To the Benefits Administrator:</p>
+<p>Patient <b><span class="blank"></span>, DOB <span class="blank"></span></b> is under my care following <b>traumatic brain injury / concussion</b> (ICD-10 <b>S06.0X__</b>), with persistent <b>post-traumatic photophobia</b> (ICD-10 <b>H53.14</b>/R51) documented on neurological evaluation dated <span class="blank"></span>.</p>
+<p>Clinical rationale: Photophobia is one of the most persistent symptoms of post-concussion syndrome and traumatic brain injury (Digre & Brennan 2012, J Neuroophthalmol 32:68-81; Patel & Ciuffreda on TBI light sensitivity). Precision-tinted lenses (FL-41 class) and UV400 outdoor tints are established non-pharmacologic management that reduces symptom burden and supports return to activity.</p>
+<p>Prescribed device: tinted eyewear with <b>UV400 protection</b>, <b>FL-41 indoor tint</b> and <b>category 2-3 outdoor tint</b>, plano or prescription per attached Rx. Estimated cost: $<span class="blank"></span>.</p>
+<p>Duration: <b>12 months</b>, symptom-driven re-evaluation. Medically necessary symptomatic treatment; <b>not primarily for convenience or general use</b>.</p>
+<div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
+L.push(`<div class="letter"><h4>Letter of Medical Necessity — G · Ocular Albinism / Aniridia / Iris Hypopigmentation</h4>
+<div class="lh"><span>Provider: <span class="blank"></span> NPI: <span class="blank"></span></span><span>Date: <span class="blank"></span></span></div>
+<p>To the Benefits Administrator:</p>
+<p>Patient <b><span class="blank"></span>, DOB <span class="blank"></span></b> carries a diagnosis of <b>ocular albinism / aniridia / marked iris hypopigmentation</b> (ICD-10 <b>E70.3__ / Q13.2__ / H21.5__</b>), confirmed on examination dated <span class="blank"></span>.</p>
+<p>Clinical rationale: Iris tissue is the eye's principal light-control structure. In albinism and aniridia, deficient iris pigment produces disabling glare, photophobia, and increased intraocular light scatter, and afflicted eyes are more exposed to UV and high-energy visible light (Digre 2012; Weis 2006 on UV/uveal susceptibility). Dark UV400 tints and, in selected patients, specialized filter lenses are standard low-vision management, not a comfort preference.</p>
+<p>Prescribed device: sunglasses with <b>maximum UV400 attenuation</b>, <b>category 3-4 tint</b> (dark) or specialized low-vision filter per exam, prescription per attached Rx. Estimated cost: $<span class="blank"></span>.</p>
+<p>Duration: <b>permanent</b>. Medically necessary for the diagnosed structural iris condition; <b>not primarily for convenience or general use</b>.</p>
+<div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
+L.push(`<div class="letter"><h4>Letter of Medical Necessity — H · Post-Refractive Surgery Glare Syndrome</h4>
+<div class="lh"><span>Provider: <span class="blank"></span> NPI: <span class="blank"></span></span><span>Date: <span class="blank"></span></span></div>
+<p>To the Benefits Administrator:</p>
+<p>Patient <b><span class="blank"></span>, DOB <span class="blank"></span></b> underwent refractive surgery (LASIK/PRK/SMILE, date <span class="blank"></span>) and has <b>persistent disabling glare and halos with outdoor light sensitivity</b> (ICD-10 <b>H53.72</b> glare; Z98.8 postsurgical state), documented on examination dated <span class="blank"></span>.</p>
+<p>Clinical rationale: Post-corneal-surgery eyes have altered light scatter profiles; glare and photosensitivity are well-described sequelae during neural adaptation and, in a subset, persist. UV400 tinted eyewear of appropriate category is the standard counseling recommendation for symptomatic relief and corneal UV protection during healing (AAO patient guidance; standard refractive-surgery aftercare references).</p>
+<p>Prescribed device: sunglasses with <b>UV400 attenuation</b>, <b>category 2-3 tint</b>, prescription per attached Rx if applicable. Estimated cost: $<span class="blank"></span>.</p>
+<p>Duration: <b>12 months</b>. Medically necessary for the symptomatic treatment of a surgical complication; <b>not primarily for convenience or general use</b>.</p>
+<div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
+L.push(`<div class="letter"><h4>Letter of Medical Necessity — I · Corneal Graft / Filtering Bleb Protection</h4>
+<div class="lh"><span>Provider: <span class="blank"></span> NPI: <span class="blank"></span></span><span>Date: <span class="blank"></span></span></div>
+<p>To the Benefits Administrator:</p>
+<p>Patient <b><span class="blank"></span>, DOB <span class="blank"></span></b> has status-post <b>penetrating keratoplasty / glaucoma filtering bleb</b> (ICD-10 <b>Z96.1 / H59.__ / Z42.4</b>), documented on examination dated <span class="blank"></span>.</p>
+<p>Clinical rationale: Penetrating corneal grafts and glaucoma filtering blebs are structurally vulnerable to trauma and UV exposure; protective eyewear with UV400 attenuation is standard, often lifelong, postoperative counseling (AAO corneal and glaucoma aftercare guidance). UV exposure also drives graft surface disease and bleb-related ocular surface irritation.</p>
+<p>Prescribed device: <b>UV400 wrap-style sunglasses with side shields</b> (impact-rated lenses preferred), tint per tolerance, prescription per attached Rx if applicable. Estimated cost: $<span class="blank"></span>.</p>
+<p>Duration: <b>permanent</b>. Medically necessary protection of surgically altered ocular structures; <b>not primarily for convenience or general use</b>.</p>
+<div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
+L.push(`<div class="letter"><h4>Letter of Medical Necessity — J · Sjögren's / Severe Dry Eye Disease with Photophobia</h4>
+<div class="lh"><span>Provider: <span class="blank"></span> NPI: <span class="blank"></span></span><span>Date: <span class="blank"></span></span></div>
+<p>To the Benefits Administrator:</p>
+<p>Patient <b><span class="blank"></span>, DOB <span class="blank"></span></b> carries a diagnosis of <b>Sjögren's syndrome / severe keratoconjunctivitis sicca with photophobia</b> (ICD-10 <b>M35.0__ / H16.2__ / H57.05</b>), documented on examination dated <span class="blank"></span>.</p>
+<p>Clinical rationale: Ocular surface disease produces corneal nerve hypersensitivity and photophobia; UV exposure and wind-borne glare worsen tear-film instability and surface pain. UV400 wrap sunglasses reduce evaporative stress and radiant exposure and are standard recommended management in severe dry-eye and Sjögren's care (AAO/NEI dry-eye guidance; McCarty & Taylor 2000 on UV ocular surface disease).</p>
+<p>Prescribed device: <b>UV400 wrap-style sunglasses</b> (moisture-chamber design preferred), tint per tolerance, prescription per attached Rx if applicable. Estimated cost: $<span class="blank"></span>.</p>
+<p>Duration: <b>ongoing / 12 months</b>. Medically necessary symptomatic treatment of diagnosed ocular surface disease; <b>not primarily for convenience or general use</b>.</p>
+<div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
+L.push(`<div class="letter"><h4>Letter of Medical Necessity — K · Facial Palsy / Lagophthalmos with Exposure Keratopathy Risk</h4>
+<div class="lh"><span>Provider: <span class="blank"></span> NPI: <span class="blank"></span></span><span>Date: <span class="blank"></span></span></div>
+<p>To the Benefits Administrator:</p>
+<p>Patient <b><span class="blank"></span>, DOB <span class="blank"></span></b> has <b>facial nerve palsy with lagophthalmos</b> (ICD-10 <b>G51.0__ / H02.2__</b>) and resultant <b>exposure keratopathy risk</b>, documented on examination dated <span class="blank"></span>.</p>
+<p>Clinical rationale: Incomplete blink compromises the tear film and leaves the cornea exposed; environmental UV, wind, and glare compound epithelial injury risk. Moisture-chamber UV400 sunglasses are a first-line protective device in facial palsy management (AAO facial nerve palsy preferred-practice guidance; standard oculoplastic aftercare references).</p>
+<p>Prescribed device: <b>UV400 moisture-chamber wrap sunglasses</b> (side shields), tint per tolerance, prescription per attached Rx if applicable. Estimated cost: $<span class="blank"></span>.</p>
+<p>Duration: <b>duration of deficit; often permanent</b>. Medically necessary corneal protection; <b>not primarily for convenience or general use</b>.</p>
+<div class="sig">Signature: <span class="blank" style="min-width:220px"></span><br>Printed name / credentials / license #: <span class="blank"></span></div></div>`);
+
 let cur=-1;
 function show(i,btn){cur=i;document.getElementById('letters').innerHTML=L[i];
  document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('on'));btn.classList.add('on');}
